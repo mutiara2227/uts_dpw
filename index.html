@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio mutiara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="sidebar">
+        <div class="profil">
+            <img src="images/FotoProfile.jpg" alt="">
+            <h2>Mutiara Nur Syafiqa</h2>
+            <p>Teknik Informatika</p>
+        </div>
+
+        <nav class="menu">
+            <a href="#tentang">Tentang saya</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#proyek">Proyek</a>
+            <a href="kontak">Kontak</a>
+        </nav>
+
+        <button id="tema" type="button">
+            Mode gelap
+        </button>
+
+    </header>
+
+    <main class="konten">
+        <section id="tentang" class="bagian">
+            <h1>Saya Mutiara Nur Syafiqa</h1>
+            <h3>Mahasiswa teknik informatika</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto consequatur atque praesentium doloremque est vero rerum ducimus fugiat facilis quo
+            </p>
+
+            <div id="teks-tambahan" hidden>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus pariatur debitis alias libero earum fugiat nulla expedita, architecto quam distinctio saepe? Alias minima iste iure, voluptatem adipisci maiores fugiat nemo?
+                </p>
+            </div>
+
+            <button id="btn-selengkapnya" class="tombol" type="button">
+                Selengkapnya
+            </button>
+
+
+        </section>
+
+        <section id="keahlian" class="bagian">
+            <h2>Keahlian Saya</h2>
+            <p>Beberapa hal yang sedang saya pelajari</p>
+
+            <div class="keahlian-list">
+                <div class="keahlian-item">
+                    <span>HTML</span>
+                    <div class="bar">
+                        <div class="isi-bar html"></div>
+                    </div>
+                </div>
+                <div class="keahlian-item">
+                    <span>JavaScript</span>
+                    <div class="bar">
+                        <div class="isi-bar javascript"></div>
+                    </div>
+                </div>
+                <div class="keahlian-item">
+                    <span>CSS</span>
+                    <div class="bar">
+                        <div class="isi-bar css"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyek" class="bagian">
+            <h2>Proyek saya</h2>
+            <p>Beberapa contoh proyek dan latihan</p>
+
+            <div class="daftar-proyek">
+                <article class="kartu-proyek">
+                    <img src="" alt="">
+
+                    <div class="isi-kartu">
+                        <h3>web undangan sederhana</h3>
+                        <p>latihan membuat web menggunakan HTML dan CSS</p>
+                    </div>
+                </article>
+
+                <article class="kartu-proyek">
+                    <img src="" alt="">
+
+                    <div class="isi-kartu">
+                        <h3>form login sederhana</h3>
+                        <p>latihan mengimplementasikan form dan events</p>
+                    </div>
+                </article>
+
+                <article class="kartu-proyek">
+                    <img src="" alt="">
+
+                    <div class="isi-kartu">
+                        <h3>web protofolio</h3>
+                        <p>latihan membuat halam portofolio</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="kontak" class="bagian">
+            <h2>Hubungi saya</h2>
+            <p>Isi form berikut</p>
+
+            <form id="form-kontak">
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan..." required></textarea>
+                </div>
+
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Mutiara Nur Syafiqa. Terima Kasih.</p>
+        </footer>
+    </main>
+</body>
+</html>
